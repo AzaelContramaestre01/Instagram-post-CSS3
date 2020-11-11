@@ -1,0 +1,123 @@
+body {
+
+    background-color: black;
+    display: absolute;
+}
+
+h1 {
+
+
+    color: white;
+    margin-left: 20%;
+    height: 100px;
+    width: 50%;
+    margin-top: 0%;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+
+
+
+.main-container {
+
+    margin-left: 33%;
+    margin-right: auto;
+    margin-top: auto;
+    position: fixed;
+    background-color: white;
+    width: 30%;
+    height: 82%;
+    display: flex;
+    
+}
+
+/* header! */
+
+.header {
+    height: 10%;
+    width: 30%;
+    position: fixed;
+}
+
+
+/* name Azael */
+
+.name {
+
+    font-size: 200%;
+    margin-left: 12%;
+    margin-top: 5%;
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+.name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* image */
+
+.image-1 {
+
+    height: 450px;
+    width: 576px;
+    margin-top: 16%;
+    
+    object-fit: cover;
+    
+    
+}
+
+.image-1:hover {
+    cursor: pointer;
+}
+
+/* image footer */ 
+
+
+
+
+
+
+
+
+
+
+/* icons header */
+
+#icon-ig { font-size: 350%; margin-left: 2%; margin-top: 2%; position: absolute }
+
+#icon-3dots {font-size: 150%; margin-left: 94%; margin-top: 3%; position: absolute;}
+
+#icon-3dots:hover {
+   cursor: pointer;
+}
+
+
+/* icons img footer */ 
+
+
+#heart  { font-size: 200%; margin-left: 3%; margin-top: 20px; position: relative;}
+#comment { font-size: 200%; margin-left: 2%; margin-top: 2%; position: relative;}
+#plane { font-size: 200%; margin-left: 2%; margin-top: 2%; position: relative;}
+#bookmark{font-size: 200%; margin-left: 66%; margin-top: 3%; position: relative;}
+
+#heart:hover {cursor: pointer;}
+
+#comment:hover{cursor: pointer;}
+
+#plane:hover{ cursor: pointer;}
+
+#bookmark:hover{cursor: pointer;}
+
+/* image footer */ 
+
+.image-footer {height: 7%; width: 100%; position: absolute; margin-top: 94%;}
+
+
+/*Comments*/ 
+
+.comments { height: 20%; position: absolute; margin-top: 105%; margin-left: 2%; margin-right: 2%; font-size: 17px; font-family: 'Quicksand', sans-serif;}
+strong:hover {cursor: pointer; text-decoration: underline   ;}
